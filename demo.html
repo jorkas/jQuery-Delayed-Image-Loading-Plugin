@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+        Remove this if you use the .htaccess -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>jQuery Delayed Image Loading Plugin</title>
+        <meta name="description" content="A jQuery plugin for Delayed Loading of images" />
+        <meta name="author" content="Joakim Westerlund" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script src="jquery.delayedimageloading.js"></script>
+        <link href="demo.css" media="all" rel="stylesheet" type="text/css" />
+        <script>
+        $(document).ready(function(){
+            console.log("ready");
+        });
+        $(window).load(function(){
+            $("a[data-dl-gravatar-url]").delayedImageLoading();
+        });
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Demo of Delayed Loading</h1>
+            </header>
+            <h2>Mynewsdesk coders</h2>
+            <div id="gravatar-users">
+                <ul>
+                    <li>
+                        <a href="https://github.com/jorkas" title="jorkas" data-dl-gravatar-url="https://secure.gravatar.com/avatar/545615189c431c5632268c2240049341?s=140&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/meeiw" title="meeiw" data-dl-gravatar-url="https://secure.gravatar.com/avatar/f9cc5d6ea6db66e2d0e552d1fec92a19?s=140&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/dbi" title="dbi" data-dl-gravatar-url="https://secure.gravatar.com/avatar/1d61786256cde4ad5a3afb2f1ff3812b?s=140&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/richardjohansson" title="richardjohansson" data-dl-gravatar-url="https://secure.gravatar.com/avatar/e6ca352c4ddaf07ff4c29c692887a9cd?s=140&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/himynameisjonas" title="himynameisjonas" data-dl-gravatar-url="https://secure.gravatar.com/avatar/4738964a8dd2d88e2c5be5013855f016?s=140&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/janne" title="janne" data-dl-gravatar-url="https://secure.gravatar.com/avatar/5069d8eb591c0b92947a6a245632c346?s=140&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/martennilsson" title="martennilsson" data-dl-gravatar-url="https://secure.gravatar.com/avatar/96340d2092cc8ff4f02c39cb01c72f21?s=140&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/martinsvalin" title="martinsvalin" data-dl-gravatar-url="https://secure.gravatar.com/avatar/d1f6789769c66d266a246bd9b24ca982?s=140&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mnordin" title="mnordin" data-dl-gravatar-url="https://secure.gravatar.com/avatar/577b456b2148438074128792ad3d22e5?s=140&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/davidwennergren" title="davidwennergren" data-dl-gravatar-url="https://secure.gravatar.com/avatar/0c2b5c09c1847f80d2f47d75c870100e?s=140&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"></a>
+                    </li>
+                </ul>
+            </div>
+            <footer>
+                <p>2011 by <a href="http://joakim-westerlund.se">Joakim Westerlund</a></p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    margin:40px;
+    font:13px/1.5 Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+#container{
+    width:100%;
+    margin:0 auto;
+}
+#gravatar-users{
+    display:inline-block;
+    padding:30px;
+    background:#f1f1f1;
+}
+ul{
+    display:inline-block;
+    margin:0;
+}
+li{
+    list-style-type:none;
+    float:left;
+    padding:0 15px 15px 0;
+}
+li a{
+    display:inline-block;
+    width:140px;
+    height:140px;
+    background:#f1f1f1;
+}
