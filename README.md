@@ -12,7 +12,7 @@ Features
 Dependencies
 ------------
 
-* The plugin requires jQuery v1.4.3 (or higher). (HTML5 data attributes required)
+* The plugin requires jQuery v1.6 (or higher). (new HTML5 data attributes like the HTML spec)
 
 Usage
 -----
