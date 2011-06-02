@@ -27,5 +27,5 @@ Links
 * Company: [Mynewsdesk](http://www.mynewsdesk.com)
 * Company Blog: [Mynewsdesk Blog](http://devcorner.mynewsdesk.com)
 
-Please use the [GitHub issue tracker](https://github.com/jorkas/jquery-delayedloading-plugin/issues) for bug
+Please use the [GitHub issue tracker](https://github.com/jorkas/jquery-delayed-image-loading-plugin/issues) for bug
 reports and feature requests.
